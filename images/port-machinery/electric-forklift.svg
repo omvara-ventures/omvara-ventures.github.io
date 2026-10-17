@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Illustration of an electric counterbalanced forklift">
+  <rect width="720" height="420" fill="#edf2f4"/>
+  <path d="M56 345h610" stroke="#cbd4d8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M214 284h300l36 47H194z" fill="#d6a94f" stroke="#25323a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M280 172h142l52 111H267z" fill="#d6a94f" stroke="#25323a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M298 190h94l32 75H289z" fill="#c9d7dc" stroke="#25323a" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M273 159h153M291 148h127" stroke="#25323a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M250 155v176M270 155v176M250 173h20M250 202h20M250 231h20M250 260h20M250 289h20" fill="none" stroke="#25323a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M250 313h-94v13h94M250 326h-142v12h142" fill="none" stroke="#25323a" stroke-width="9" stroke-linejoin="round"/>
+  <circle cx="258" cy="334" r="42" fill="#25323a"/><circle cx="258" cy="334" r="18" fill="#aeb9bd"/>
+  <circle cx="478" cy="334" r="42" fill="#25323a"/><circle cx="478" cy="334" r="18" fill="#aeb9bd"/>
+  <path d="M474 200h52l18 31" fill="none" stroke="#25323a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M495 212h31" stroke="#f4f6f7" stroke-width="7" stroke-linecap="round"/>
+</svg>

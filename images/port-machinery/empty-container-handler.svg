@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Illustration of an empty container handler">
+  <rect width="720" height="420" fill="#edf2f4"/>
+  <path d="M48 349h626" stroke="#cbd4d8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="248" y="54" width="300" height="116" rx="3" fill="#d9e0e2" stroke="#52636c" stroke-width="8"/>
+  <path d="M288 59v106M328 59v106M368 59v106M408 59v106M448 59v106M488 59v106M253 93h290M253 132h290" stroke="#aab8bd" stroke-width="5"/>
+  <path d="M199 294h350l43 43H170z" fill="#d6a94f" stroke="#25323a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M242 72v228M265 72v228M242 91h23M242 119h23M242 147h23M242 175h23M242 203h23M242 231h23M242 259h23" fill="none" stroke="#25323a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M239 284h35M241 61h26M235 55h38" stroke="#25323a" stroke-width="9" stroke-linecap="round"/>
+  <path d="M310 201h150v83H310z" fill="#d6a94f" stroke="#25323a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M326 215h117v52H326z" fill="#c9d7dc" stroke="#25323a" stroke-width="6"/>
+  <circle cx="244" cy="336" r="41" fill="#25323a"/><circle cx="244" cy="336" r="17" fill="#aeb9bd"/>
+  <circle cx="505" cy="336" r="41" fill="#25323a"/><circle cx="505" cy="336" r="17" fill="#aeb9bd"/>
+  <path d="M466 291h96" stroke="#25323a" stroke-width="9"/>
+</svg>

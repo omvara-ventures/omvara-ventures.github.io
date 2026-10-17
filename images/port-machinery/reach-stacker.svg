@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" role="img" aria-label="Illustration of a container reach stacker">
+  <rect width="720" height="420" fill="#edf2f4"/>
+  <path d="M42 349h636" stroke="#cbd4d8" stroke-width="8" stroke-linecap="round"/>
+  <rect x="430" y="72" width="238" height="155" rx="3" fill="#d9e0e2" stroke="#52636c" stroke-width="8"/>
+  <path d="M470 77v145M510 77v145M550 77v145M590 77v145M630 77v145M435 112h228M435 152h228M435 192h228" stroke="#aab8bd" stroke-width="5"/>
+  <path d="M148 278h350l44 58H128z" fill="#d6a94f" stroke="#25323a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M172 249h102v31H172zM183 192h82v57h-82z" fill="#d6a94f" stroke="#25323a" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M196 204h54v33h-54z" fill="#c9d7dc" stroke="#25323a" stroke-width="6"/>
+  <path d="M260 260 510 205" stroke="#25323a" stroke-width="25" stroke-linecap="round"/>
+  <path d="M264 244 502 192" stroke="#b3bec2" stroke-width="7" stroke-linecap="round"/>
+  <path d="M492 184h40v18h-40zM526 192v28" fill="none" stroke="#25323a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M525 219h150" stroke="#25323a" stroke-width="8"/>
+  <circle cx="204" cy="337" r="43" fill="#25323a"/><circle cx="204" cy="337" r="18" fill="#aeb9bd"/>
+  <circle cx="486" cy="337" r="43" fill="#25323a"/><circle cx="486" cy="337" r="18" fill="#aeb9bd"/>
+  <path d="M283 275h52" stroke="#f4f6f7" stroke-width="8" stroke-linecap="round"/>
+</svg>
