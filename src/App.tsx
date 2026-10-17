@@ -6,6 +6,8 @@ import VehiclesPage from "./pages/VehiclesPage";
 import GlenVyraPage from "./pages/GlenVyraPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import PortMachineryPage from "./pages/PortMachineryPage";
+import PortMachineryModelPage from "./pages/PortMachineryModelPage";
 
 export default function App() {
   return (
@@ -14,6 +16,8 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/automotive" element={<AutomotivePage />} />
         <Route path="/vehicles" element={<VehiclesPage />} />
+        <Route path="/port-machinery" element={<PortMachineryPage />} />
+        <Route path="/port-machinery/:modelId" element={<PortMachineryModelPage />} />
         <Route path="/glen-vyra" element={<GlenVyraPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />

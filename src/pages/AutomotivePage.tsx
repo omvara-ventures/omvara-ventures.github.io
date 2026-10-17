@@ -32,7 +32,7 @@ export default function AutomotivePage() {
             <article className="category-card"><img src="/images/automotive/toyota-hilux-studio.jpeg" alt="Silver Toyota Hilux pickup" /><div><h3>Toyota Hilux &amp; pickups</h3><p>Pickup truck sourcing enquiries for commercial and private buyers.</p></div></article>
             <article className="category-card"><img src="/images/automotive/suzuki-swift-red.jpeg" alt="Red Suzuki Swift passenger car" /><div><h3>Passenger vehicles</h3><p>Vehicle sourcing based on the requested specification and market.</p></div></article>
           </div>
-          <div className="center-action"><Link className="button button-dark" to="/vehicles">View vehicle catalogue <ArrowRight size={17} /></Link></div>
+          <div className="center-action"><Link className="button button-dark" to="/vehicles">Browse illustrative vehicle catalogue <ArrowRight size={17} /></Link></div>
         </div>
       </section>
 

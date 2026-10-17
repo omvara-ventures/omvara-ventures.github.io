@@ -3,6 +3,7 @@
 React + TypeScript + Vite starter for a parent company website with two distinct divisions:
 
 - **Omvara Automotive** — vehicle sourcing and export enquiries.
+- **Port Machinery** — manufacturer-listed forklift and container-handling equipment for sourcing enquiries.
 - **Glen Vyra** — premium whisky brand and trade enquiries.
 
 ## Why Vite rather than Next.js?
@@ -36,6 +37,7 @@ npm run preview
 - `/` — parent homepage
 - `/automotive` — automotive export division
 - `/vehicles` — sample vehicle catalogue
+- `/port-machinery` — KP forklifts, container reach stackers and empty container handlers
 - `/glen-vyra` — whisky brand and proposed releases
 - `/about` — parent company
 - `/contact` — contact and enquiry routing

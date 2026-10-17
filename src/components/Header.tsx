@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 const navItems = [
   { to: "/", label: "Home", end: true },
   { to: "/automotive", label: "Automotive", end: false },
-  { to: "/vehicles", label: "Vehicle Catalogue", end: false },
+  { to: "/port-machinery", label: "Port Machinery", end: false },
   { to: "/glen-vyra", label: "Glen Vyra", end: false },
   { to: "/about", label: "About", end: false },
   { to: "/contact", label: "Contact", end: false },
@@ -33,10 +33,10 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav-wrap">
         <Link to="/" className="brand" onClick={() => setOpen(false)} aria-label="Omvara Holdings home">
-          <span className="brand-mark">O</span>
+          <img className="brand-logo" src="/images/omvara-logo.png" alt="" />
           <span className="brand-copy">
             <strong>OMVARA</strong>
-            <small>HOLDINGS &amp; VENTURES</small>
+            <small>HOLDINGS &amp; VENTURES LTD.</small>
           </span>
         </Link>
 

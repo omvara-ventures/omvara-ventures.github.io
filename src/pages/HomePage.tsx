@@ -14,6 +14,7 @@ export default function HomePage() {
           </p>
           <div className="button-row">
             <Link className="button" to="/automotive">Explore Automotive <ArrowRight size={17} /></Link>
+            <Link className="button button-outline-light" to="/port-machinery">Port Machinery</Link>
             <Link className="button button-outline-light" to="/glen-vyra">Discover Glen Vyra</Link>
           </div>
         </div>
@@ -21,27 +22,43 @@ export default function HomePage() {
 
       <section className="section">
         <div className="container">
-          <SectionHeading eyebrow="TWO DISTINCT DIVISIONS" title="One parent company. Two areas of focus." text="Explore our automotive export services and our premium whisky brand concept." align="center" />
+          <SectionHeading eyebrow="THREE DISTINCT DIVISIONS" title="One parent company. Three areas of focus." text="Explore automotive and port machinery sourcing enquiries, alongside the Glen Vyra whisky brand concept." align="center" />
           <div className="division-grid">
             <article className="division-card automotive-card">
-              <img src="/images/automotive/toyota-fortuner-landscape.jpeg" alt="Toyota Fortuner SUV in a mountain landscape" />
-              <div className="division-overlay" />
-              <div className="division-content">
-                <p className="eyebrow eyebrow-light">VEHICLE SOURCING &amp; EXPORTS</p>
+              <div className="division-copy">
+                <p className="eyebrow eyebrow-light">OMVARA AUTOMOTIVE</p>
                 <h3>Omvara Automotive</h3>
-                <p>Vehicle sourcing for international buyers, importers and dealerships.</p>
-                <Link className="text-link text-link-light" to="/automotive">Explore automotive <ArrowRight size={16} /></Link>
+                <p>Vehicle sourcing and export enquiries for international buyers, including Suzuki models, Toyota Hilux pickups, passenger vehicles and SUVs.</p>
+                <Link className="button button-small division-action" to="/automotive">Explore automotive <ArrowRight size={16} /></Link>
+                <ul className="division-tags" aria-label="Automotive vehicle categories">
+                  <li>Suzuki</li><li>Toyota Hilux</li><li>Passenger vehicles</li><li>SUVs &amp; 4x4</li>
+                </ul>
               </div>
+              <img className="division-image" src="/images/automotive/toyota-hilux-landscape.jpeg" alt="Toyota Hilux pickup in a mountain landscape" />
+            </article>
+            <article className="division-card port-machinery-card">
+              <div className="division-copy">
+                <p className="eyebrow eyebrow-light">PORT EQUIPMENT SOURCING</p>
+                <h3>Port Machinery</h3>
+                <p>Manufacturer-listed KP electric forklifts, container reach stackers and empty container handlers.</p>
+                <Link className="button button-small division-action" to="/port-machinery">Explore port machinery <ArrowRight size={16} /></Link>
+                <ul className="division-tags" aria-label="Port machinery categories">
+                  <li>Electric forklifts</li><li>Reach stackers</li><li>Container handlers</li>
+                </ul>
+              </div>
+              <div className="division-image port-machinery-art" aria-hidden="true"><Ship size={76} strokeWidth={1.2} /><span>PORT MACHINERY</span></div>
             </article>
             <article className="division-card whisky-card">
-              <img src="/images/glen-vyra/distillery-illustrative.jpeg" alt="Illustrative distillery landscape, not a Glen Vyra location" />
-              <div className="division-overlay" />
-              <div className="division-content">
-                <p className="eyebrow eyebrow-gold">PREMIUM WHISKY BRAND</p>
+              <div className="division-copy">
+                <p className="eyebrow eyebrow-gold">A WHISKY BRAND CONCEPT</p>
                 <h3>Glen Vyra</h3>
-                <p>A premium whisky brand concept with proposed releases and future trade partnerships.</p>
-                <Link className="text-link text-link-gold" to="/glen-vyra">Discover Glen Vyra <ArrowRight size={16} /></Link>
+                <p>A developing concept for proposed limited releases and future international distributor partnerships.</p>
+                <Link className="button button-small button-gold division-action" to="/glen-vyra">Discover Glen Vyra <ArrowRight size={16} /></Link>
+                <ul className="division-tags" aria-label="Glen Vyra concept areas">
+                  <li>Proposed releases</li><li>Trade partnerships</li>
+                </ul>
               </div>
+              <img className="division-image" src="/images/glen-vyra/glen-vyra-bottle-concept.jpeg" alt="Illustrative Glen Vyra bottle concept; label details are unverified" />
             </article>
           </div>
         </div>

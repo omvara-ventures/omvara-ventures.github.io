@@ -7,13 +7,14 @@ export default function Footer() {
         <div>
           <Link to="/" className="footer-brand">OMVARA HOLDINGS &amp; VENTURES</Link>
           <p className="muted footer-intro">
-            International vehicle sourcing and exports, alongside development of the Glen Vyra whisky brand concept.
+            Vehicle and port machinery sourcing enquiries, alongside development of the Glen Vyra whisky brand concept.
           </p>
         </div>
         <div>
           <h3>Our divisions</h3>
           <Link to="/automotive">Omvara Automotive</Link>
           <Link to="/vehicles">Vehicle catalogue</Link>
+          <Link to="/port-machinery">Port Machinery</Link>
           <Link to="/glen-vyra">Glen Vyra</Link>
         </div>
         <div>
